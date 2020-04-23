@@ -32,7 +32,6 @@ class CustomUserTests(TestCase):
         self.assertTrue(admin_user.is_staff)
         self.assertTrue(admin_user.is_superuser)
 
-
 class SignUpPageTests(TestCase):
     def setUp(self):
         url = reverse('signup')
